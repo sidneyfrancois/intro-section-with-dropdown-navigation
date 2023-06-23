@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+:root {
+  --color-neutral-almost-white: hsl(0, 0%, 98%);
+  --color-neutral-medium-gray: hsl(0, 0%, 41%);
+  --color-neutral-almost-black: hsl(0, 0%, 8%);
+
+  --font-size: 1.125rem;
+  --epilogue-regular: 500;
+  --epilogue-bold: 700;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: var(--color-neutral-almost-white);
+}
+
+nav {
+  padding: 2rem 1.5rem;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+}
